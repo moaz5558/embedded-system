@@ -1,0 +1,14 @@
+#include <stdio.h>
+void main()
+{
+    char name[] = "Abdelrahman";
+    int age = 21;
+    float gpa = 2.3;
+    char department[] = "Biomedical Engineering";
+    printf("Student Profile\n");
+    printf(" \n");
+    printf("Name: %s\n", name);
+    printf("Age: %d\n", age);
+    printf("Department: %s\n", department);
+    printf("GPA: %.2f\n", gpa);
+}
